@@ -3,8 +3,6 @@ function myCounter(n) {
     return [];
   } else {
     const countArray = myCounter(n - 1);
-    
-    ;
     countArray.unshift(n);
     return countArray;
   }
