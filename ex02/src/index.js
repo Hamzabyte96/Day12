@@ -3,9 +3,9 @@ function myCounter(n) {
     return [];
   } else {
     const countArray = myCounter(n - 1);
-    countArray.sort();
-    countArray.push(n);
-    countArray.reverse();
+    
+    ;
+    countArray.unshift(n);
     return countArray;
   }
 }
